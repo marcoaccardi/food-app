@@ -2,7 +2,7 @@
 
 ### Features
 
-HTML, CSS, JS, REACT, REDUX
+HTML, CSS, TYPESCRIPT, REACT, REDUX
 
 ### Tools
 
