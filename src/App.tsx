@@ -1,9 +1,17 @@
 import React from "react";
 
-import "./App.css";
+import { Header } from "./components/Layout/Header";
+import { Meals } from "./components/Meal/Meals";
 
-function App() {
-  return <div></div>;
-}
+const App: React.FC = () => {
+  return (
+    <div>
+      <Header />
+      <main>
+        <Meals />
+      </main>
+    </div>
+  );
+};
 
 export default App;
