@@ -13,5 +13,12 @@ body {
   background-color: white;
 }
 
-@import "./Layout/Header", "./Layout/HeaderCartButton", "./Meal/Meals",
-  "./Meal/MealsSummary", "./Meal/AvailableMeals";
+// LAYOUT
+@import "./Layout/Header", "./Layout/HeaderCartButton";
+
+// MEAL
+@import "./Meal/Meals", "./Meal/MealsSummary", "./Meal/AvailableMeals",
+  "./Meal/MealItem.scss";
+
+//UI
+@import "./UI/Card";
