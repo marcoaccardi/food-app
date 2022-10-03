@@ -18,7 +18,7 @@ body {
 
 // MEAL
 @import "./Meal/Meals", "./Meal/MealsSummary", "./Meal/AvailableMeals",
-  "./Meal/MealItem.scss";
+  "./Meal/MealItem.scss", "./Meal/MealItemForm";
 
 //UI
-@import "./UI/Card";
+@import "./UI/Card", "./UI/Input";

@@ -3,7 +3,7 @@ import { meals } from "../../assets/data";
 import { Card } from "../UI/Card";
 import { MealItem } from "./MealItem";
 
-export const AvailableMeals: React.FC = () => {
+export const AvailableMeals: React.FC = ({}) => {
   return (
     <section className='meals'>
       <Card>
